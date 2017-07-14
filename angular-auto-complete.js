@@ -252,7 +252,7 @@
                         return;
                     }
 
-                    if (ctrl.container.has(event.target).length > 0) {
+                    if (ctrl.container.has && ctrl.container.has(event.target).length > 0) {
                         event.stopPropagation();
                         return;
                     }
